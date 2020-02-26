@@ -9,7 +9,7 @@ pipelineJob('job-dsl-plugin') {
           branch('*/master')
         }
       }
-      scriptPath(jenkinsfiles/test1-jenkinsfile)
+      scriptPath('jenkinsfiles/test1-jenkinsfile')
       lightweight()
     }
   }
