@@ -1,4 +1,4 @@
-pipelineJob('test-pipeline-1') {
+pipelineJob('test-pipeline-2') {
   definition {
     cpsScm {
       scm {
@@ -9,7 +9,7 @@ pipelineJob('test-pipeline-1') {
           branch('*/master')
         }
       }
-      scriptPath('jenkinsfiles/test1-jenkinsfile')
+      scriptPath('jenkinsfiles/test2-jenkinsfile')
       lightweight()
     }
   }
